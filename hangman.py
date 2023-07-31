@@ -47,3 +47,5 @@ def hangman(word):
 answer = random.choice(["cat", "dog", "apple", "pencil", "phone", "water"])
 
 hangman(answer)
+
+# ブランチにプッシュします
