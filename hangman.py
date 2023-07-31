@@ -1,3 +1,5 @@
+import random
+
 def hangman(word):
     wrong = 0
     stages = ["",
@@ -42,4 +44,6 @@ def hangman(word):
             print("you lose! The word is {}".format(word))
             
             
-hangman("cat")
+answer = random.choice(["cat", "dog", "apple", "pencil", "phone", "water"])
+
+hangman(answer)
